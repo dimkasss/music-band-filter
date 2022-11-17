@@ -1,0 +1,41 @@
+$background: #EFEFEF;
+$color: #636363;
+$hover-color: #ABABAB;
+
+* {
+    background: $background;
+    color: $color;
+    main {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            max-width: 500px;
+            padding: 3rem;
+            input {
+                padding: 1rem;
+                font-size: 2rem;
+            }
+            input::placeholder {
+                color: $hover-color;
+            }
+            ul {
+                list-style-type: none;
+            }
+        }
+        h1 {
+            text-align: center;
+        }
+        hr {
+            width: 100%;
+        }
+    }
+}
+

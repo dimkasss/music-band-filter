@@ -7,3 +7,4 @@
 # cd music-band-filter
 # npm i
 # npm start
+готово!

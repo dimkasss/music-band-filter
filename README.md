@@ -1,4 +1,4 @@
-#frontend
+# frontend
 Сначала лучше запускать backend, потому что бэк на 3000 порту (не делал переменные окружения) https://github.com/dimkasss/music-band-backend
 
 # терминал:
